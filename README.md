@@ -5,10 +5,12 @@ https://github.com/Gombassa/MaxMSPAudioFeatureExtractor
 
 This is Max/MSP feature extractor patcher, intended for use with Wekinator for the Kadenze Machine Learning for Artists and Musicians course, assignment 5. It is intended to be
 used to extract basic features like pitch and envelope from a live audio source, output as packaged OSC messages. It may offer a solution for students and others using Max/MSP 
-on win64
-(the more ubiquitous analyzer~ with its more extensive feature set, is win32 only at present).
+on win64(the more ubiquitous analyzer~ with its more extensive feature set, is win32 only at present).
 
 To use:
+
+Install the sigmund~ external object in Max/MSP from http://vboehm.net/2015/06/a-64-bit-version-of-sigmund/
+
 Set your live audio source input in the Options>Audio Status window.
 
 Adjust the slider to prevent clipping
